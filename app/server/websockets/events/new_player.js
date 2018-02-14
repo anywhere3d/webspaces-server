@@ -8,7 +8,7 @@ module.exports = function(client){
 
     //  Add new player to the collection.
         
-        data.clientId = client.id;
+        data.clientid = client.id;
         debugMode && console.log("new player data:", data );
 
         function PlayersUpsert(){
@@ -47,7 +47,7 @@ module.exports = function(client){
 
             PlayersFind({"namespace":data.namespace}).then(function( results ){
                 for (var i = 0; i < results.length; i++){
-                    if (results[i].clientId != client.id){
+                    if (results[i].clientid != client.id){
                         client.to(data.namespace).emit("add player", results[i]);
                         debugMode && console.log("debugLog:\tSending 'add player' message to client:", client.id);
                     }
