@@ -1,2 +1,2 @@
 # webspaces
-Realtime Multiuser 3D Social Cloud Network
+Realtime Multiuser 3D Social Webspace Network
