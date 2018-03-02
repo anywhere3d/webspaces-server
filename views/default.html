@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
+    <meta name="description" contents="{{description}}">
+    <title>anywhere3d.com: {{title}}</title>
+    <link rel="stylesheet" href="/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css">
+    <link rel="stylesheet" href="/css/bootbox-dialoges.css">
+    <link rel="stylesheet" href="/css/side-panels.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <link rel="stylesheet" href="/css/alerts.css">
+    <link rel="stylesheet" href="/css/panel-ui.css">
+    <link rel="stylesheet" href="/css/anywhere3d.css">
+
+    <script src="/js/w3.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery-ui.js"></script>
+    <script> debugMode = true;</script>
+
+</head>
+
+</body>
+
+<style>
+    #btn-login > a { color:#fff; font-weight:bold; text-decoration:none; }
+</style>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container">
+
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                <a class="navbar-caption" title="anywhere3d.com">anywhere3d</a>
+            </div>
+            <a class="navbar-logo pull-left"><img src="/icons/anywhere3d-girls-logo50x50.png" alt="anywhere3d logo"></a>
+            <ul class="nav navbar-nav navbar-right pull-left">
+                <li class="first"><a href="/dashboard" target="_blank"><div id="menu-dashboard">Dashboard</div></a></li>
+                <li><a href="/gallery" target="_blank"><div id="menu-gallery">Gallery</div></a></li>
+                <li><a href="http://anywhere3d.freeforums.net/" target="_blank"><div  id="menu-forums">Forums</div></a></li>
+                <li class="last"><a href="/help" target="_blank"><div id="menu-help">Help</div></a></li>
+            </ul>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><div class="navbar-btn btn btn-white-outline" id="btn-login"><a href="/login">Login</a></div></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<style>
+    section.mbr-section.mbr-after-navbar { padding-top:0px; padding-bottom:0px; }
+    #msg-box1-z { margin-bottom: 0px; }
+    #render-container { overflow:hidden; opacity:1; background-color:rgba(0,0,0,0); }
+    #render-container > canvas { position:absolute; top:0px; left:0px; z-index:1; }
+    #msg-box1-z > div.nav {background-color:black; width:100%;}
+    #msg-box1-z > div.nav > div.navbar-right { margin-right:0px; padding-right:10px; }
+</style>
+
+
+                       {{{body}}}
+
+
+<script src="/three/r78/js/three.js"></script>
+<script src="/three/r78/js/EditorControls.js"></script>
+<script src="/three/r78/js/Detector.js"></script>
+<script src="/three/r78/js/renderers/Projector.js"></script>
+<script src="/three/r78/js/KeyboardState.js"></script>
+<script src="/three/r78/js/controls/FirstPersonControls.js"></script>
+
+<script src="/js/SceneHelpers.js"></script>
+<script src="/js/EdgesHelper.js"></script>
+<script src="/js/UserUtilities.js"></script>
+
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/bootstrap/js/bootbox.min.js"></script>
+<script src="/js/alerts.js"></script>
+<script src="/js/DeviceDetector.js"></script>
+
+<script>
+//  colors.js
+    var defaultColor = "#ffffff";
+    var successColor = "#53e700";
+    var warningColor = "#ffff00";
+    var dangerColor = "#ff0000";
+</script>
+
+
+</body>
+</html>
