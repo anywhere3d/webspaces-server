@@ -1,0 +1,45 @@
+{
+  "name": "anywhere3d.app",
+  "version": "0.1.1",
+  "description": "anywhere3d web server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anywhere",
+    "web 3d",
+    "webspaces",
+    "realtime",
+    "multiplayer",
+    "social",
+    "network"
+  ],
+  "author": "Stelianos Stafanoudakis",
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "connect-mongo": "0.8.2",
+    "cookie-parser": "1.4.0",
+    "cors": "^2.8.4",
+    "emailjs": "^1.0.4",
+    "errorhandler": "1.4.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "1.11.3",
+    "jsonfile": "^3.0.0",
+    "kerberos": "0.0.23",
+    "moment": "2.10.3",
+    "mongodb": "^2.2.29",
+    "path": "^0.12.7",
+    "q": "^1.5.0",
+    "sea3d": "^1.8.1",
+    "socket.io": "^0.9.19",
+    "stylus": "0.52.4"
+  },
+  "engines": {
+    "node": "4.2.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
