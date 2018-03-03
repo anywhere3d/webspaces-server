@@ -39,10 +39,6 @@ module.exports = function(socket){
         require(__dirname + "/events/add_player.js")(client);
         require(__dirname + "/events/move_player.js")(client);
         require(__dirname + "/events/chat_message.js")(client);
-    
-    //  require(__dirname + "/events/remote_player_controls.js")(client);
-    //  require(__dirname + "/events/idle_player.js")(client);
-    //  require(__dirname + "/events/start_walk.js")(client);
 
 
 
